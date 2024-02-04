@@ -1,4 +1,11 @@
+:root {
+    background-color: #242424;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
 .search-bar {
+    margin-top: 20px;
+    margin-left: 20px;
     display: block;
 }
 .projects {
@@ -39,4 +46,18 @@
 .thumbnail {
     height: 150px;
     width: 150px;
+}
+
+.display-text {
+    color: white
+}
+
+.projects-box {
+    background-color: #484848;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
